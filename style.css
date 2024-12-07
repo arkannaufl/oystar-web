@@ -1,0 +1,28 @@
+  @keyframes bounce {
+
+      0%,
+      100% {
+          transform: translateY(0);
+      }
+
+      50% {
+          transform: translateY(-5px);
+      }
+  }
+
+  .scroll-icon {
+      animation: bounce 1.5s ease-in-out infinite;
+  }
+
+  /* Sembunyikan scrollbar pada semua browser */
+  .no-scrollbar {
+      scrollbar-width: none;
+      /* Untuk Firefox */
+      -ms-overflow-style: none;
+      /* Untuk Internet Explorer 10+ */
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+      /* Untuk Chrome, Safari, dan Edge */
+  }
