@@ -1,28 +1,64 @@
-  @keyframes bounce {
+@keyframes bounce {
 
-      0%,
-      100% {
-          transform: translateY(0);
-      }
+    0%,
+    100% {
+        transform: translateY(0);
+    }
 
-      50% {
-          transform: translateY(-5px);
-      }
-  }
+    50% {
+        transform: translateY(-5px);
+    }
+}
 
-  .scroll-icon {
-      animation: bounce 1.5s ease-in-out infinite;
-  }
+.scroll-icon {
+    animation: bounce 1.5s ease-in-out infinite;
+}
 
-  /* Sembunyikan scrollbar pada semua browser */
-  .no-scrollbar {
-      scrollbar-width: none;
-      /* Untuk Firefox */
-      -ms-overflow-style: none;
-      /* Untuk Internet Explorer 10+ */
-  }
+.no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
 
-  .no-scrollbar::-webkit-scrollbar {
-      display: none;
-      /* Untuk Chrome, Safari, dan Edge */
-  }
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.circle-wrapper {
+    position: relative;
+    transform: scale(0.9);
+}
+
+.circle-1 {
+    animation: rotateCircle1 20s linear infinite;
+}
+
+.circle-2 {
+    animation: rotateCircle2 15s linear infinite;
+}
+
+@keyframes rotateCircle1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateCircle2 {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(15px) rotate(180deg);
+    }
+}

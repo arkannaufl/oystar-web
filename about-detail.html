@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US - Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-['Fredoka']">
+    <!-- Navbar Section -->
+    <section id="navbar" class="fixed top-0 w-full z-50 bg-white shadow-md">
+        <nav class="flex justify-between max-w-7xl mx-auto items-center p-4">
+            <div>
+                <a href="index.html">
+                    <img src="assets/oystarlogo.jpg" class="w-24" alt="Oystar Logo">
+                </a>
+            </div>
+            <div class="flex items-center space-x-4 md:hidden">
+                <button
+                    class="font-normal text-base bg-[#FF6915] hover:transition duration-100 hover:bg-[#DE5D15] text-white px-4 py-2 rounded-xl">
+                    Contact Person
+                </button>
+                <button id="menu-button" class="focus:outline-none">
+                    <svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:flex md:space-x-7">
+                <ul class="flex space-x-11">
+                    <li><a href="#tentangkami"
+                            class="font-normal text-base hover:text-[#FF6915] hover:transition duration-100 text-[#999999]">Tentang
+                            Kami</a>
+                    </li>
+                    <li><a href="#visikami"
+                            class="font-normal text-base hover:text-[#FF6915] hover:transition duration-100 text-[#999999]">Visi
+                            Kami</a>
+                    </li>
+                    <li><a href="#misikami"
+                            class="font-normal text-base hover:text-[#FF6915] hover:transition duration-100 text-[#999999]">Misi
+                            Kami</a>
+                    </li>
+                </ul>
+            </div>
+            <button
+                class="hidden font-normal text-base md:block bg-[#FF6915] hover:transition duration-100 hover:bg-[#DE5D15] text-white px-4 py-2 rounded-xl">
+                Contact Person
+            </button>
+        </nav>
+    </section>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="fixed inset-0 bg-white z-40 flex flex-col items-center justify-center transform -translate-x-full transition-transform duration-300 ease-in-out">
+        <ul class="space-y-7 text-center">
+            <li><a href="#tentangkami" class="hover:text-[#FF6915] text-[#999999]">Tentang Kami</a></li>
+            <li><a href="#visikami" class="hover:text-[#FF6915] text-[#999999]">Visi Kami</a></li>
+            <li><a href="#misikami" class="hover:text-[#FF6915] text-[#999999]">Misi Kami</a></li>
+    </div>
+    <!-- End Navbar Section -->
+
+    <!-- Tentang Kami Section -->
+    <section id="tentangkami">
+        <div class="max-w-7xl mx-auto flex justify-between h-screen">
+            <div class="w-1/2 flex justify-start items-center">
+                <img src="assets/aboutdetailimg.png" class="w-3/5 ml-12" alt="Building Illustration">
+            </div>
+            <div class="w-1/2 flex justify-center items-center">
+                <div class="text-start">
+                    <p class="font-normal text-[#999999] font-semibold text-lg mb-2">- About Us</p>
+                    <h1 class="font-bold text-6xl text-[#343741] mb-6">Tentang <br> Kami</h1>
+                    <p class="font-normal text-[#999999] text-base mb-6">Ada Jamur adalah perusahaan yang bergerak di
+                        bidang budidaya jamur tiram, didirikan pada tahun 2015 dan berlokasi di Sukamakmur, Bogor, Jawa
+                        Barat, Indonesia.</p>
+                    <p class="font-normal text-[#999999] text-base mb-6">Sejak awal berdirinya, Ada Jamur telah
+                        berkomitmen untuk menghadirkan produk inovatif berbahan dasar jamur tiram, dan terus berkembang
+                        dengan visi menjadi pemimpin produk jamur tiram di pasar global.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Tentang Kami Section -->
+
+    <!-- Visi Kami Section -->
+    <section id="visikami">
+        <div class="max-w-7xl mx-auto flex justify-between h-auto mb-44">
+            <div class="w-1/2 flex justify-center items-center">
+                <div class="text-start">
+                    <p class="font-normal text-[#999999] font-semibold text-lg mb-2">- About Us</p>
+                    <h1 class="font-bold text-6xl text-[#343741] mb-6">Visi Kami</h1>
+                    <p class="font-normal max-w-lg text-[#999999] text-base mb-6">Menjadi perusahaan global yang
+                        bergerak di
+                        bidang budidaya jamur tiram dan membangun sumber daya manusia dengan mengutamakankualitas dan
+                        inovasi produk,</p>
+                </div>
+            </div>
+            <div class="w-1/2 flex justify-end items-center">
+                <img src="assets/visikami.png" class="w-3/6 mr-16" alt="Building Illustration">
+            </div>
+        </div>
+    </section>
+    <!-- End Visi Kami Section -->
+
+    <!-- Misi Kami Section -->
+    <section id="misikami">
+        <div class="max-w-7xl mx-auto flex justify-between h-auto mb-44">
+            <div class="w-1/2 flex justify-start items-center">
+                <img src="assets/misikami.png" class="w-3/5 ml-12" alt="Building Illustration">
+            </div>
+            <div class="w-1/2 flex justify-center items-center">
+                <div class="text-start">
+                    <p class="font-normal text-[#999999] font-semibold text-lg mb-2">- About Us</p>
+                    <h1 class="font-bold text-6xl text-[#343741] mb-6">Misi Kami</h1>
+                    <p class="font-normal text-[#999999] max-w-xl text-base mb-6">Ada Jamur berkomitmen untuk menciptakan produk
+                        yang inovatif dan berkualitas tinggi, meningkatkan standar keamanan pangan secara luas, menjalin
+                        kerjasama yang baik dengan pembeli dan konsumen, serta selalu mengutamakan kualitas produk.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Misi Kami Section -->
+
+        <!-- Footer Section -->
+        <footer class="bg-[#FF6915]">
+            <div class="max-w-7xl mx-auto py-16">
+                <!-- Grid Container -->
+                <div class="grid grid-cols-4 gap-8">
+                    <!-- Logo dan Alamat -->
+                    <div class="space-y-6">
+                        <img src="assets/oystarlogo.jpg" class="w-32" alt="Oystar Logo">
+                        <p class="text-white text-normal">
+                            Kp. Cimenyan RT.03 RW.06, Sukadamai, Sukamakmur, Kab.Bogor west java indonesia
+                        </p>
+                        <!-- Social Media Icons -->
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-white p-2 rounded-xl">
+                                <svg width="20" height="20" viewBox="0 0 512 512" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M349.33 69.33C374.063 69.4039 397.761 79.2616 415.25 96.7502C432.738 114.239 442.596 137.937 442.67 162.67V349.33C442.596 374.063 432.738 397.761 415.25 415.25C397.761 432.738 374.063 442.596 349.33 442.67H162.67C137.937 442.596 114.239 432.738 96.7502 415.25C79.2616 397.761 69.4039 374.063 69.33 349.33V162.67C69.4039 137.937 79.2616 114.239 96.7502 96.7502C114.239 79.2616 137.937 69.4039 162.67 69.33H349.33ZM349.33 32H162.67C90.8 32 32 90.8 32 162.67V349.33C32 421.2 90.8 480 162.67 480H349.33C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32Z"
+                                        fill="#FF652F" />
+                                    <path
+                                        d="M377.33 162.67C371.792 162.67 366.379 161.028 361.774 157.951C357.17 154.874 353.581 150.501 351.461 145.385C349.342 140.269 348.788 134.639 349.868 129.207C350.948 123.776 353.615 118.787 357.531 114.871C361.447 110.955 366.436 108.288 371.868 107.208C377.299 106.128 382.929 106.682 388.045 108.801C393.162 110.921 397.534 114.509 400.611 119.114C403.688 123.719 405.33 129.132 405.33 134.67C405.338 138.349 404.619 141.994 403.215 145.394C401.81 148.795 399.748 151.885 397.147 154.487C394.545 157.088 391.455 159.15 388.055 160.555C384.654 161.959 381.009 162.678 377.33 162.67ZM256 181.33C270.768 181.33 285.205 185.709 297.484 193.914C309.764 202.119 319.335 213.781 324.986 227.425C330.638 241.069 332.116 256.083 329.235 270.567C326.354 285.052 319.242 298.357 308.8 308.8C298.357 319.242 285.052 326.354 270.567 329.235C256.083 332.116 241.069 330.638 227.425 324.986C213.781 319.334 202.119 309.764 193.914 297.484C185.709 285.205 181.33 270.768 181.33 256C181.351 236.203 189.225 217.222 203.224 203.224C217.223 189.225 236.203 181.351 256 181.33ZM256 144C233.849 144 212.194 150.569 193.776 162.875C175.358 175.182 161.003 192.674 152.526 213.139C144.049 233.605 141.831 256.124 146.152 277.85C150.474 299.576 161.141 319.532 176.804 335.196C192.468 350.859 212.424 361.526 234.15 365.848C255.876 370.169 278.395 367.951 298.861 359.474C319.326 350.997 336.818 336.642 349.125 318.224C361.431 299.805 368 278.151 368 256C368 226.296 356.2 197.808 335.196 176.804C314.192 155.8 285.704 144 256 144Z"
+                                        fill="#FF652F" />
+                                </svg>
+                            </a>
+                            <a href="#" class="bg-white p-2 rounded-xl">
+                                <svg width="20" height="20" viewBox="0 0 448 446" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M448 224C448 100.3 347.7 0 224 0C100.3 0 0 100.3 0 224C0 335.8 81.9 428.47 189 445.29V288.77H132.11V224H189V174.65C189 118.52 222.45 87.49 273.61 87.49C298.12 87.49 323.76 91.87 323.76 91.87V147H295.5C267.69 147 258.99 164.26 258.99 182V224H321.11L311.19 288.77H259V445.31C366.1 428.5 448 335.83 448 224Z"
+                                        fill="#FF652F" />
+                                </svg>
+    
+                            </a>
+                            <a href="#" class="bg-white p-2 rounded-xl">
+                                <svg width="20" height="20" viewBox="0 0 448 448" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M382.73 65.1001C362.021 44.3807 337.418 27.9622 310.337 16.7896C283.257 5.61696 254.234 -0.0890408 224.94 5.08337e-05C102 5.08337e-05 1.92 99.58 1.87 222C1.81561 260.981 12.091 299.281 31.65 333L0 448L118.25 417.13C150.982 434.862 187.623 444.143 224.85 444.13H224.94C347.87 444.13 447.94 344.54 448 222.13C448.074 192.936 442.342 164.018 431.137 137.059C419.931 110.101 403.477 85.6401 382.73 65.1001ZM224.94 406.66H224.86C191.674 406.67 159.091 397.789 130.5 380.94L123.73 376.94L53.56 395.26L72.29 327.17L67.88 320.17C49.3239 290.792 39.4925 256.748 39.53 222C39.53 120.27 122.74 37.5 225.01 37.5C274.07 37.4124 321.156 56.8154 355.911 91.4413C390.666 126.067 410.245 173.08 410.34 222.14C410.3 323.88 327.13 406.66 224.94 406.66ZM326.63 268.47C321.06 265.69 293.63 252.27 288.55 250.42C283.47 248.57 279.72 247.64 276.01 253.2C272.3 258.76 261.61 271.2 258.36 274.95C255.11 278.7 251.86 279.11 246.29 276.33C240.72 273.55 222.75 267.7 201.46 248.8C184.89 234.09 173.71 215.93 170.46 210.38C167.21 204.83 170.11 201.82 172.9 199.06C175.41 196.57 178.47 192.58 181.26 189.34C184.05 186.1 184.98 183.78 186.83 180.08C188.68 176.38 187.76 173.14 186.37 170.37C184.98 167.6 173.83 140.29 169.19 129.18C164.66 118.36 160.07 119.83 156.65 119.66C153.4 119.5 149.65 119.46 145.96 119.46C143.139 119.533 140.364 120.188 137.807 121.382C135.25 122.576 132.967 124.284 131.1 126.4C125.99 131.96 111.59 145.4 111.59 172.68C111.59 199.96 131.59 226.36 134.35 230.06C137.11 233.76 173.65 289.79 229.56 313.82C239.942 318.266 250.55 322.165 261.34 325.5C274.69 329.72 286.84 329.13 296.44 327.7C307.15 326.11 329.44 314.28 334.07 301.32C338.7 288.36 338.71 277.26 337.32 274.95C335.93 272.64 332.21 271.24 326.63 268.47Z"
+                                        fill="#FF652F" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <!-- Quick Access -->
+                    <div>
+                        <h3 class="text-white font-semibold text-lg mb-6">Quick Access</h3>
+                        <ul class="space-y-4 text-white">
+                            <li><a href="#beranda">Beranda</a></li>
+                            <li><a href="#tentang">Tentang</a></li>
+                            <li><a href="#produk">Produk</a></li>
+                            <li><a href="#testimoni">Testimoni</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- About Company -->
+                    <div>
+                        <h3 class="text-white font-semibold text-lg mb-6">About Company</h3>
+                        <ul class="space-y-4 text-white">
+                            <li><a href="#tentang-kami">Tentang Kami</a></li>
+                            <li><a href="#visi-kami">Visi Kami</a></li>
+                            <li><a href="#misi-kami">Misi Kami</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Contact -->
+                    <div>
+                        <h3 class="text-white font-semibold text-lg mb-6">Contact</h3>
+                        <ul class="space-y-4 text-white">
+                            <li>+62 857 1584 2878</li>
+                            <li>+62 812 3731 8280</li>
+                            <li>Obay.subarnas@gmail.com</li>
+                            <li>ada.obaysubarnas@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- Copyright -->
+        <div class="text-center py-4 text-[#999999]">
+            Copyright © 2024 Ada Jamur. All Rights Reserved.
+        </div>
+        <!-- End Footer Section -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
